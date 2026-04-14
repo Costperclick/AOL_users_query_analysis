@@ -13,6 +13,7 @@ __pycache__/
 # Datas
 data/results/
 data/data_categorised.csv
+data/
 
 # =========================
 # Virtual environments (uv / venv)
