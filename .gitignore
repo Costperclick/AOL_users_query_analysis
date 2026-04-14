@@ -11,8 +11,8 @@ __pycache__/
 *$py.class
 
 # Datas
-.data/results
-.data/data_categorised.csv
+data/results/
+data/data_categorised.csv
 
 # =========================
 # Virtual environments (uv / venv)
