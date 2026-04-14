@@ -10,6 +10,10 @@ __pycache__/
 # byte-compiled / optimized
 *$py.class
 
+# Datas
+.data/results
+.data/data_categorised.csv
+
 # =========================
 # Virtual environments (uv / venv)
 # =========================
