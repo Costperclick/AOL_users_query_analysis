@@ -1,0 +1,64 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# byte-compiled / optimized
+*$py.class
+
+# =========================
+# Virtual environments (uv / venv)
+# =========================
+.venv/
+venv/
+env/
+ENV/
+.venv
+
+# uv lock file (optionnel selon ton workflow)
+uv.lock
+
+# =========================
+# IDE / editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Testing / tooling
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# =========================
+# uv / build artifacts
+# =========================
+dist/
+build/
+*.egg-info/
