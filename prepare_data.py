@@ -1,6 +1,11 @@
+"""
+This approach generate only one category for the queries, for an easier interpretation ( but less accurate)
+"""
+
 import polars as pl
 from config import DATA_DIR, RAW_DATA_FILE, CATEGORISED_DATA_FILE, DATA_RESULT
 import time
+
 
 def parse_data(filepath: str) -> pl.LazyFrame:
     lf = pl.scan_csv(filepath, separator='\t', quote_char=None)
